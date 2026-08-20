@@ -1,4 +1,9 @@
+my_polar_llr/
 __pycache__/
 .venv/
 .idea/
 .temp/
+outputs/
+outputs_old_9class/
+smoke_outputs/
+models/

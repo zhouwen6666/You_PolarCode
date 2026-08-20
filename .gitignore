@@ -1,0 +1,25 @@
+﻿# 虚拟环境
+.venv/
+
+# PyCharm
+.idea/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 临时文件
+.temp/
+*.log
+.DS_Store
+Thumbs.db
+
+# 大文件目录（训练数据、模型权重、输出结果，不上传）
+my_polar_llr/
+models/
+outputs/
+outputs_old_9class/
+smoke_outputs/
+references/linoss/outputs/
+references/linoss/models/
+references/linoss/data_dir/

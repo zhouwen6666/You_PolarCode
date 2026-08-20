@@ -1,0 +1,46 @@
+CMD: F:\anaconda\envs\py3.11_pytorch2.8.0\python.exe D:\pythonProject1\You_PolarCode\evaluate.py --model densenet
+Start: 2026-08-18 14:22:47
+model=densenet device=cuda test_samples=4212 checkpoint=D:\pythonProject1\You_PolarCode\outputs\densenet\densenet_best.pt
+已测试 3200/4212 条样本
+已测试 4212/4212 条样本
+
+===== TDMRNet 测试结果 =====
+checkpoint_epoch: 24
+parameters: 100,962
+samples: 4212
+loss: 2.037387
+accuracy: 0.314103
+macro_precision: 0.258487
+macro_recall: 0.314103
+macro_f1: 0.259070
+low_snr_accuracy_-4_to_2_db: 0.081790
+high_snr_accuracy_4_to_20_db: 0.417353
+inference_ms_per_sample: 0.896905
+throughput_samples_per_second: 1114.945007
+
+每类指标（accuracy 等同于该类 recall）：
+P01: acc=0.6880 precision=0.5194 f1=0.5919
+P02: acc=0.0000 precision=0.0000 f1=0.0000
+P03: acc=0.0000 precision=0.0000 f1=0.0000
+P04: acc=1.0000 precision=0.3116 f1=0.4751
+P05: acc=0.6239 precision=0.4966 f1=0.5530
+P06: acc=0.0000 precision=0.0000 f1=0.0000
+P07: acc=0.7009 precision=0.4409 f1=0.5413
+P08: acc=0.6282 precision=0.9018 f1=0.7406
+P09: acc=0.1368 precision=0.1199 f1=0.1277
+P10: acc=0.6282 precision=0.8258 f1=0.7136
+P11: acc=0.0043 precision=0.0476 f1=0.0078
+P12: acc=0.0085 precision=0.0667 f1=0.0152
+P13: acc=0.6111 precision=0.5720 f1=0.5909
+P14: acc=0.4573 precision=0.0857 f1=0.1444
+P15: acc=0.0000 precision=0.0000 f1=0.0000
+P16: acc=0.1496 precision=0.1167 f1=0.1311
+P17: acc=0.0000 precision=0.0000 f1=0.0000
+P18: acc=0.0171 precision=0.1481 f1=0.0307
+
+每个 SNR 的准确率：
+-4dB=0.0556  -2dB=0.0617  +0dB=0.0710  +2dB=0.1389  +4dB=0.2500  +6dB=0.3673  +8dB=0.4228  +10dB=0.4383  +12dB=0.4321  +14dB=0.4074  +16dB=0.4630  +18dB=0.5309  +20dB=0.4444
+
+完整结果已保存：D:\pythonProject1\You_PolarCode\outputs\densenet\test_results
+Exit code: 0
+End: 2026-08-18 14:22:58

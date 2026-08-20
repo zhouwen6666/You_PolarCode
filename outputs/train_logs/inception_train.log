@@ -1,0 +1,58 @@
+CMD: F:\anaconda\envs\py3.11_pytorch2.8.0\python.exe D:\pythonProject1\You_PolarCode\train.py --model inception --epochs 200 --lr 1e-3 --grad-clip 1.0
+Start: 2026-08-18 14:28:56
+model=inception device=cuda | NVIDIA GeForce RTX 3060 Laptop GPU | PyTorch CUDA 12.8 train=15163 validation=1685
+input=[B,1,256,32] parameters=296,514
+epoch=001 lr=1.00e-03 train_loss=2.866989 train_acc=0.0648 val_loss=2.847328 val_acc=0.0754 time=50.9s gpu_peak=3177.8MiB
+epoch=002 lr=1.00e-03 train_loss=2.837784 train_acc=0.0661 val_loss=2.812954 val_acc=0.0582 time=48.6s gpu_peak=3177.8MiB
+epoch=003 lr=1.00e-03 train_loss=2.826037 train_acc=0.0643 val_loss=2.820152 val_acc=0.0570 time=48.5s gpu_peak=3177.8MiB
+epoch=004 lr=1.00e-03 train_loss=2.825879 train_acc=0.0656 val_loss=2.793709 val_acc=0.0528 time=48.4s gpu_peak=3177.8MiB
+epoch=005 lr=1.00e-03 train_loss=2.818353 train_acc=0.0661 val_loss=2.817913 val_acc=0.0516 time=48.4s gpu_peak=3177.8MiB
+epoch=006 lr=1.00e-03 train_loss=2.824517 train_acc=0.0682 val_loss=2.815826 val_acc=0.0540 time=48.3s gpu_peak=3177.8MiB
+epoch=007 lr=1.00e-03 train_loss=2.826218 train_acc=0.0652 val_loss=2.792154 val_acc=0.0546 time=48.5s gpu_peak=3177.8MiB
+epoch=008 lr=1.00e-03 train_loss=2.820521 train_acc=0.0657 val_loss=2.786494 val_acc=0.0499 time=48.4s gpu_peak=3177.8MiB
+epoch=009 lr=1.00e-03 train_loss=2.817652 train_acc=0.0660 val_loss=2.799141 val_acc=0.0487 time=48.4s gpu_peak=3177.8MiB
+epoch=010 lr=1.00e-03 train_loss=2.819591 train_acc=0.0644 val_loss=2.806886 val_acc=0.0671 time=48.3s gpu_peak=3177.8MiB
+epoch=011 lr=1.00e-03 train_loss=2.819923 train_acc=0.0710 val_loss=2.791099 val_acc=0.0724 time=48.2s gpu_peak=3177.8MiB
+epoch=012 lr=1.00e-03 train_loss=2.811993 train_acc=0.0763 val_loss=2.759742 val_acc=0.0801 time=48.9s gpu_peak=3177.8MiB
+epoch=013 lr=1.00e-03 train_loss=2.737647 train_acc=0.0988 val_loss=2.670168 val_acc=0.0950 time=49.1s gpu_peak=3177.8MiB
+epoch=014 lr=1.00e-03 train_loss=2.683969 train_acc=0.1118 val_loss=2.642761 val_acc=0.0973 time=48.3s gpu_peak=3177.8MiB
+epoch=015 lr=1.00e-03 train_loss=2.691827 train_acc=0.1144 val_loss=2.636099 val_acc=0.1039 time=48.4s gpu_peak=3177.8MiB
+epoch=016 lr=1.00e-03 train_loss=2.688513 train_acc=0.1155 val_loss=2.629406 val_acc=0.1157 time=48.2s gpu_peak=3177.8MiB
+epoch=017 lr=1.00e-03 train_loss=2.641700 train_acc=0.1241 val_loss=2.609800 val_acc=0.1240 time=48.3s gpu_peak=3177.8MiB
+epoch=018 lr=1.00e-03 train_loss=2.608681 train_acc=0.1320 val_loss=2.591525 val_acc=0.1199 time=48.6s gpu_peak=3177.8MiB
+epoch=019 lr=1.00e-03 train_loss=2.576003 train_acc=0.1428 val_loss=2.551046 val_acc=0.1347 time=48.5s gpu_peak=3177.8MiB
+epoch=020 lr=1.00e-03 train_loss=2.456563 train_acc=0.1706 val_loss=2.397511 val_acc=0.1798 time=48.4s gpu_peak=3177.8MiB
+epoch=021 lr=1.00e-03 train_loss=2.429271 train_acc=0.1909 val_loss=2.373181 val_acc=0.1680 time=48.4s gpu_peak=3177.8MiB
+epoch=022 lr=1.00e-03 train_loss=2.354881 train_acc=0.2269 val_loss=2.445088 val_acc=0.2047 time=48.5s gpu_peak=3177.8MiB
+epoch=023 lr=1.00e-03 train_loss=2.240047 train_acc=0.2509 val_loss=2.290655 val_acc=0.2303 time=48.6s gpu_peak=3177.8MiB
+epoch=024 lr=1.00e-03 train_loss=2.153849 train_acc=0.2649 val_loss=2.162065 val_acc=0.2463 time=48.5s gpu_peak=3177.8MiB
+epoch=025 lr=1.00e-03 train_loss=2.127462 train_acc=0.2764 val_loss=2.100427 val_acc=0.2659 time=48.6s gpu_peak=3177.8MiB
+epoch=026 lr=1.00e-03 train_loss=2.099656 train_acc=0.2814 val_loss=2.066078 val_acc=0.2766 time=48.6s gpu_peak=3177.8MiB
+epoch=027 lr=1.00e-03 train_loss=2.060703 train_acc=0.2931 val_loss=2.032184 val_acc=0.2807 time=48.8s gpu_peak=3177.8MiB
+epoch=028 lr=1.00e-03 train_loss=2.075568 train_acc=0.2964 val_loss=2.022768 val_acc=0.2872 time=48.6s gpu_peak=3177.8MiB
+epoch=029 lr=1.00e-03 train_loss=2.023490 train_acc=0.3028 val_loss=2.053173 val_acc=0.2884 time=48.7s gpu_peak=3177.8MiB
+epoch=030 lr=1.00e-03 train_loss=2.036970 train_acc=0.3009 val_loss=2.051231 val_acc=0.2754 time=48.6s gpu_peak=3177.8MiB
+epoch=031 lr=1.00e-03 train_loss=2.002062 train_acc=0.3085 val_loss=1.996422 val_acc=0.3045 time=48.6s gpu_peak=3177.8MiB
+epoch=032 lr=1.00e-03 train_loss=1.999792 train_acc=0.3091 val_loss=2.038533 val_acc=0.2896 time=48.7s gpu_peak=3177.8MiB
+epoch=033 lr=1.00e-03 train_loss=2.000788 train_acc=0.3083 val_loss=2.002961 val_acc=0.3050 time=48.8s gpu_peak=3177.8MiB
+epoch=034 lr=1.00e-03 train_loss=1.949883 train_acc=0.3190 val_loss=1.984022 val_acc=0.3045 time=48.7s gpu_peak=3177.8MiB
+epoch=035 lr=1.00e-03 train_loss=1.978604 train_acc=0.3132 val_loss=1.971357 val_acc=0.3003 time=49.8s gpu_peak=3177.8MiB
+epoch=036 lr=1.00e-03 train_loss=1.953883 train_acc=0.3216 val_loss=1.994946 val_acc=0.2967 time=49.6s gpu_peak=3177.8MiB
+epoch=037 lr=1.00e-03 train_loss=1.956936 train_acc=0.3195 val_loss=1.958150 val_acc=0.3068 time=48.8s gpu_peak=3177.8MiB
+epoch=038 lr=1.00e-03 train_loss=1.937715 train_acc=0.3239 val_loss=1.963335 val_acc=0.3009 time=48.8s gpu_peak=3177.8MiB
+epoch=039 lr=1.00e-03 train_loss=1.965090 train_acc=0.3245 val_loss=1.973096 val_acc=0.3074 time=49.0s gpu_peak=3177.8MiB
+epoch=040 lr=1.00e-03 train_loss=1.905714 train_acc=0.3316 val_loss=1.915002 val_acc=0.3157 time=49.6s gpu_peak=3177.8MiB
+epoch=041 lr=1.00e-03 train_loss=1.915099 train_acc=0.3315 val_loss=1.970041 val_acc=0.3110 time=49.2s gpu_peak=3177.8MiB
+epoch=042 lr=1.00e-03 train_loss=1.881071 train_acc=0.3400 val_loss=1.959778 val_acc=0.3116 time=49.3s gpu_peak=3177.8MiB
+epoch=043 lr=1.00e-03 train_loss=1.891321 train_acc=0.3393 val_loss=1.958490 val_acc=0.3104 time=48.6s gpu_peak=3177.8MiB
+epoch=044 lr=1.00e-03 train_loss=1.896923 train_acc=0.3430 val_loss=1.941435 val_acc=0.3128 time=49.1s gpu_peak=3177.8MiB
+epoch=045 lr=1.00e-03 train_loss=1.858738 train_acc=0.3495 val_loss=1.942284 val_acc=0.3128 time=48.9s gpu_peak=3177.8MiB
+epoch=046 lr=1.00e-03 train_loss=1.861341 train_acc=0.3474 val_loss=1.924898 val_acc=0.3264 time=49.1s gpu_peak=3177.8MiB
+epoch=047 lr=1.00e-03 train_loss=1.841853 train_acc=0.3600 val_loss=1.968040 val_acc=0.3163 time=48.6s gpu_peak=3177.8MiB
+epoch=048 lr=1.00e-03 train_loss=1.823380 train_acc=0.3656 val_loss=1.958087 val_acc=0.3169 time=48.4s gpu_peak=3177.8MiB
+epoch=049 lr=1.00e-03 train_loss=1.830052 train_acc=0.3683 val_loss=1.966835 val_acc=0.3252 time=48.5s gpu_peak=3177.8MiB
+epoch=050 lr=1.00e-03 train_loss=1.791581 train_acc=0.3748 val_loss=1.962909 val_acc=0.3187 time=48.7s gpu_peak=3177.8MiB
+验证损失连续 10 轮未改善，提前停止。
+最佳模型已保存：D:\pythonProject1\You_PolarCode\outputs\inception\inception_best.pt
+Exit code: 0
+End: 2026-08-18 15:09:43

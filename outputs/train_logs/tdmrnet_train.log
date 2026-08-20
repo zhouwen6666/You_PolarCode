@@ -1,0 +1,34 @@
+model=tdmrnet device=cuda | NVIDIA GeForce RTX 3060 Laptop GPU | PyTorch CUDA 12.8 train=15163 validation=1685
+input=[B,1,256,32] parameters=43,652
+epoch=001 lr=1.00e-03 train_loss=2.866674 train_acc=0.0639 val_loss=2.830513 val_acc=0.0742 time=17.0s gpu_peak=736.1MiB
+epoch=002 lr=1.00e-03 train_loss=2.842862 train_acc=0.0654 val_loss=2.830867 val_acc=0.0724 time=16.5s gpu_peak=736.1MiB
+epoch=003 lr=1.00e-03 train_loss=2.832913 train_acc=0.0628 val_loss=2.804463 val_acc=0.0593 time=15.0s gpu_peak=736.1MiB
+epoch=004 lr=1.00e-03 train_loss=2.820239 train_acc=0.0654 val_loss=2.800163 val_acc=0.0552 time=16.7s gpu_peak=736.1MiB
+epoch=005 lr=1.00e-03 train_loss=2.815165 train_acc=0.0668 val_loss=2.798056 val_acc=0.0528 time=16.6s gpu_peak=736.1MiB
+epoch=006 lr=1.00e-03 train_loss=2.753213 train_acc=0.0903 val_loss=2.638976 val_acc=0.1157 time=17.0s gpu_peak=736.1MiB
+epoch=007 lr=1.00e-03 train_loss=2.439335 train_acc=0.1630 val_loss=2.337909 val_acc=0.1958 time=15.2s gpu_peak=736.1MiB
+epoch=008 lr=1.00e-03 train_loss=2.156707 train_acc=0.2552 val_loss=2.093462 val_acc=0.2748 time=17.2s gpu_peak=736.1MiB
+epoch=009 lr=1.00e-03 train_loss=1.989810 train_acc=0.3068 val_loss=1.935845 val_acc=0.3353 time=16.1s gpu_peak=736.1MiB
+epoch=010 lr=1.00e-03 train_loss=1.892906 train_acc=0.3431 val_loss=1.888063 val_acc=0.3501 time=15.3s gpu_peak=736.1MiB
+epoch=011 lr=1.00e-03 train_loss=1.823211 train_acc=0.3642 val_loss=1.811249 val_acc=0.3596 time=16.3s gpu_peak=736.1MiB
+epoch=012 lr=1.00e-03 train_loss=1.748487 train_acc=0.3865 val_loss=1.745872 val_acc=0.3858 time=17.1s gpu_peak=736.1MiB
+epoch=013 lr=1.00e-03 train_loss=1.657062 train_acc=0.4167 val_loss=1.709742 val_acc=0.4018 time=17.2s gpu_peak=736.1MiB
+epoch=014 lr=1.00e-03 train_loss=1.554847 train_acc=0.4444 val_loss=1.545207 val_acc=0.4332 time=15.3s gpu_peak=736.1MiB
+epoch=015 lr=1.00e-03 train_loss=1.469403 train_acc=0.4707 val_loss=1.534216 val_acc=0.4279 time=15.0s gpu_peak=736.1MiB
+epoch=016 lr=1.00e-03 train_loss=1.417647 train_acc=0.4837 val_loss=1.544449 val_acc=0.4356 time=14.9s gpu_peak=736.1MiB
+epoch=017 lr=1.00e-03 train_loss=1.386657 train_acc=0.4911 val_loss=1.408233 val_acc=0.4671 time=14.9s gpu_peak=736.1MiB
+epoch=018 lr=1.00e-03 train_loss=1.344213 train_acc=0.5048 val_loss=1.420196 val_acc=0.4807 time=14.9s gpu_peak=736.1MiB
+epoch=019 lr=1.00e-03 train_loss=1.304302 train_acc=0.5159 val_loss=1.449812 val_acc=0.4665 time=15.0s gpu_peak=736.1MiB
+epoch=020 lr=1.00e-03 train_loss=1.275840 train_acc=0.5261 val_loss=1.370574 val_acc=0.4718 time=14.9s gpu_peak=736.1MiB
+epoch=021 lr=1.00e-03 train_loss=1.235846 train_acc=0.5390 val_loss=1.423354 val_acc=0.4890 time=15.0s gpu_peak=736.1MiB
+epoch=022 lr=1.00e-03 train_loss=1.209947 train_acc=0.5475 val_loss=1.375340 val_acc=0.5145 time=15.4s gpu_peak=736.1MiB
+epoch=023 lr=1.00e-03 train_loss=1.176311 train_acc=0.5580 val_loss=1.409952 val_acc=0.4866 time=15.2s gpu_peak=736.1MiB
+epoch=024 lr=1.00e-03 train_loss=1.147990 train_acc=0.5656 val_loss=1.376833 val_acc=0.5175 time=15.3s gpu_peak=736.1MiB
+epoch=025 lr=1.00e-03 train_loss=1.122625 train_acc=0.5749 val_loss=1.417409 val_acc=0.4932 time=15.6s gpu_peak=736.1MiB
+epoch=026 lr=1.00e-03 train_loss=1.088136 train_acc=0.5825 val_loss=1.398205 val_acc=0.5116 time=15.2s gpu_peak=736.1MiB
+epoch=027 lr=1.00e-03 train_loss=1.053011 train_acc=0.5938 val_loss=1.513597 val_acc=0.4772 time=15.7s gpu_peak=736.1MiB
+epoch=028 lr=1.00e-03 train_loss=1.033357 train_acc=0.5956 val_loss=1.480298 val_acc=0.4938 time=15.2s gpu_peak=736.1MiB
+epoch=029 lr=1.00e-03 train_loss=0.996874 train_acc=0.6111 val_loss=1.522092 val_acc=0.5240 time=15.1s gpu_peak=736.1MiB
+epoch=030 lr=1.00e-03 train_loss=0.974827 train_acc=0.6154 val_loss=1.533363 val_acc=0.4973 time=15.1s gpu_peak=736.1MiB
+验证损失连续 10 轮未改善，提前停止。
+最佳模型已保存：D:\pythonProject1\You_PolarCode\outputs\tdmrnet_best.pt

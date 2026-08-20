@@ -1,0 +1,46 @@
+CMD: F:\anaconda\envs\py3.11_pytorch2.8.0\python.exe D:\pythonProject1\You_PolarCode\evaluate.py --model inception
+Start: 2026-08-18 15:09:43
+model=inception device=cuda test_samples=4212 checkpoint=D:\pythonProject1\You_PolarCode\outputs\inception\inception_best.pt
+已测试 3200/4212 条样本
+已测试 4212/4212 条样本
+
+===== TDMRNet 测试结果 =====
+checkpoint_epoch: 40
+parameters: 296,514
+samples: 4212
+loss: 1.889898
+accuracy: 0.328822
+macro_precision: 0.296254
+macro_recall: 0.328822
+macro_f1: 0.284042
+low_snr_accuracy_-4_to_2_db: 0.104938
+high_snr_accuracy_4_to_20_db: 0.428326
+inference_ms_per_sample: 1.231382
+throughput_samples_per_second: 812.095989
+
+每类指标（accuracy 等同于该类 recall）：
+P01: acc=0.6197 precision=0.7108 f1=0.6621
+P02: acc=0.0769 precision=0.0796 f1=0.0783
+P03: acc=0.0043 precision=0.1250 f1=0.0083
+P04: acc=0.8504 precision=0.3560 f1=0.5019
+P05: acc=0.6581 precision=0.6498 f1=0.6539
+P06: acc=0.0000 precision=0.0000 f1=0.0000
+P07: acc=0.7692 precision=0.5732 f1=0.6569
+P08: acc=0.7179 precision=0.6512 f1=0.6829
+P09: acc=0.0171 precision=0.3333 f1=0.0325
+P10: acc=0.7692 precision=0.4604 f1=0.5760
+P11: acc=0.0726 precision=0.2297 f1=0.1104
+P12: acc=0.4188 precision=0.0996 f1=0.1609
+P13: acc=0.5726 precision=0.7283 f1=0.6411
+P14: acc=0.0470 precision=0.0608 f1=0.0530
+P15: acc=0.1709 precision=0.1156 f1=0.1379
+P16: acc=0.1538 precision=0.1593 f1=0.1565
+P17: acc=0.0000 precision=0.0000 f1=0.0000
+P18: acc=0.0000 precision=0.0000 f1=0.0000
+
+每个 SNR 的准确率：
+-4dB=0.0556  -2dB=0.0741  +0dB=0.0926  +2dB=0.1975  +4dB=0.3148  +6dB=0.4012  +8dB=0.4105  +10dB=0.4537  +12dB=0.4352  +14dB=0.4537  +16dB=0.4630  +18dB=0.4660  +20dB=0.4568
+
+完整结果已保存：D:\pythonProject1\You_PolarCode\outputs\inception\test_results
+Exit code: 0
+End: 2026-08-18 15:09:55

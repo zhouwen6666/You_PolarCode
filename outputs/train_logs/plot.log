@@ -1,0 +1,21 @@
+CMD: F:\anaconda\envs\py3.11_pytorch2.8.0\python.exe D:\pythonProject1\You_PolarCode\plot_results.py
+Start: 2026-08-18 16:24:57
+
+发现 11 个已训练模型：TDMRNet, Convnext_polar, Densenet, Inception, Polar_mamba, Polar_vit, Resnet, Starnet_polar, Tdmrnet_ca, Tdmrnet_plus, Tdmrnet_wht
+主测试模型：TDMRNet
+Saved: 01_loss_curves.png
+Saved: 02_accuracy_curves.png
+Saved: 03_per_snr_accuracy.png
+Saved: 04_per_class_metrics.png
+Saved: 05_confusion_matrix.png
+Traceback (most recent call last):
+  File "D:\pythonProject1\You_PolarCode\plot_results.py", line 352, in <module>
+    gpu_vals = [col(m["hist"], "peak_gpu_memory_mb")[0] for m in models]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\pythonProject1\You_PolarCode\plot_results.py", line 352, in <listcomp>
+    gpu_vals = [col(m["hist"], "peak_gpu_memory_mb")[0] for m in models]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+Exit code: 1
+End: 2026-08-18 16:25:02

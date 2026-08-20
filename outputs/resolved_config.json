@@ -1,0 +1,17 @@
+{
+  "dataset_dir": "D:\\pythonProject1\\You_PolarCode\\my_polar_llr",
+  "output_dir": "D:\\pythonProject1\\You_PolarCode\\outputs",
+  "model_name": "tdmrnet",
+  "matrix_rows": 256,
+  "sample_length": 8192,
+  "num_classes": 18,
+  "channels": 16,
+  "num_dcms": 2,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "max_epochs": 200,
+  "patience": 10,
+  "validation_ratio": 0.1,
+  "seed": 20260816,
+  "num_workers": 0
+}

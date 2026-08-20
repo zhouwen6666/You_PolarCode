@@ -1,0 +1,42 @@
+CMD: F:\anaconda\envs\py3.11_pytorch2.8.0\python.exe D:\pythonProject1\You_PolarCode\train.py --model densenet --epochs 200 --lr 1e-3 --grad-clip 1.0
+Start: 2026-08-18 14:04:32
+model=densenet device=cuda | NVIDIA GeForce RTX 3060 Laptop GPU | PyTorch CUDA 12.8 train=15163 validation=1685
+input=[B,1,256,32] parameters=100,962
+epoch=001 lr=1.00e-03 train_loss=2.858345 train_acc=0.0625 val_loss=2.837792 val_acc=0.0748 time=30.6s gpu_peak=2115.5MiB
+epoch=002 lr=1.00e-03 train_loss=2.850222 train_acc=0.0654 val_loss=2.852323 val_acc=0.0564 time=31.2s gpu_peak=2115.5MiB
+epoch=003 lr=1.00e-03 train_loss=2.842864 train_acc=0.0644 val_loss=2.861082 val_acc=0.0647 time=32.3s gpu_peak=2115.5MiB
+epoch=004 lr=1.00e-03 train_loss=2.829785 train_acc=0.0636 val_loss=2.809584 val_acc=0.0635 time=31.5s gpu_peak=2115.5MiB
+epoch=005 lr=1.00e-03 train_loss=2.840510 train_acc=0.0656 val_loss=2.828857 val_acc=0.0582 time=31.5s gpu_peak=2115.5MiB
+epoch=006 lr=1.00e-03 train_loss=2.830183 train_acc=0.0634 val_loss=2.847369 val_acc=0.0795 time=31.5s gpu_peak=2115.5MiB
+epoch=007 lr=1.00e-03 train_loss=2.784302 train_acc=0.0936 val_loss=2.718161 val_acc=0.1056 time=31.5s gpu_peak=2115.5MiB
+epoch=008 lr=1.00e-03 train_loss=2.701103 train_acc=0.1202 val_loss=2.696137 val_acc=0.1175 time=31.2s gpu_peak=2115.5MiB
+epoch=009 lr=1.00e-03 train_loss=2.660016 train_acc=0.1277 val_loss=2.770074 val_acc=0.1080 time=31.6s gpu_peak=2115.5MiB
+epoch=010 lr=1.00e-03 train_loss=2.628558 train_acc=0.1347 val_loss=2.812141 val_acc=0.1027 time=31.8s gpu_peak=2115.5MiB
+epoch=011 lr=1.00e-03 train_loss=2.606508 train_acc=0.1407 val_loss=2.581944 val_acc=0.1389 time=31.5s gpu_peak=2115.5MiB
+epoch=012 lr=1.00e-03 train_loss=2.581568 train_acc=0.1457 val_loss=3.100012 val_acc=0.1199 time=31.6s gpu_peak=2115.5MiB
+epoch=013 lr=1.00e-03 train_loss=2.550422 train_acc=0.1504 val_loss=6.511728 val_acc=0.0843 time=31.6s gpu_peak=2115.5MiB
+epoch=014 lr=1.00e-03 train_loss=2.514698 train_acc=0.1587 val_loss=2.515581 val_acc=0.1573 time=31.6s gpu_peak=2115.5MiB
+epoch=015 lr=1.00e-03 train_loss=2.479883 train_acc=0.1705 val_loss=2.918959 val_acc=0.1531 time=31.9s gpu_peak=2115.5MiB
+epoch=016 lr=1.00e-03 train_loss=2.444230 train_acc=0.1839 val_loss=3.492576 val_acc=0.1585 time=32.4s gpu_peak=2115.5MiB
+epoch=017 lr=1.00e-03 train_loss=2.372401 train_acc=0.2074 val_loss=7.170625 val_acc=0.1175 time=32.5s gpu_peak=2115.5MiB
+epoch=018 lr=1.00e-03 train_loss=2.293044 train_acc=0.2376 val_loss=6.346470 val_acc=0.2409 time=31.5s gpu_peak=2115.5MiB
+epoch=019 lr=1.00e-03 train_loss=2.203994 train_acc=0.2692 val_loss=8.250472 val_acc=0.2546 time=31.6s gpu_peak=2115.5MiB
+epoch=020 lr=1.00e-03 train_loss=2.129359 train_acc=0.2859 val_loss=4.736557 val_acc=0.2653 time=31.5s gpu_peak=2115.5MiB
+epoch=021 lr=1.00e-03 train_loss=2.055057 train_acc=0.3016 val_loss=2.114189 val_acc=0.2932 time=33.2s gpu_peak=2115.5MiB
+epoch=022 lr=1.00e-03 train_loss=2.010964 train_acc=0.3079 val_loss=7.498996 val_acc=0.2688 time=31.5s gpu_peak=2115.5MiB
+epoch=023 lr=1.00e-03 train_loss=1.980325 train_acc=0.3109 val_loss=11.770164 val_acc=0.2605 time=31.5s gpu_peak=2115.5MiB
+epoch=024 lr=1.00e-03 train_loss=1.950639 train_acc=0.3161 val_loss=2.062191 val_acc=0.3033 time=31.4s gpu_peak=2115.5MiB
+epoch=025 lr=1.00e-03 train_loss=1.949044 train_acc=0.3184 val_loss=2.073997 val_acc=0.2920 time=31.3s gpu_peak=2115.5MiB
+epoch=026 lr=1.00e-03 train_loss=1.923010 train_acc=0.3206 val_loss=2.911634 val_acc=0.2641 time=31.3s gpu_peak=2115.5MiB
+epoch=027 lr=1.00e-03 train_loss=1.913298 train_acc=0.3215 val_loss=13.797304 val_acc=0.2706 time=31.7s gpu_peak=2115.5MiB
+epoch=028 lr=1.00e-03 train_loss=1.904716 train_acc=0.3286 val_loss=3.314737 val_acc=0.2736 time=31.5s gpu_peak=2115.5MiB
+epoch=029 lr=1.00e-03 train_loss=1.901543 train_acc=0.3278 val_loss=6.418958 val_acc=0.2570 time=31.6s gpu_peak=2115.5MiB
+epoch=030 lr=1.00e-03 train_loss=1.895845 train_acc=0.3302 val_loss=4.007101 val_acc=0.2973 time=31.5s gpu_peak=2115.5MiB
+epoch=031 lr=1.00e-03 train_loss=1.881735 train_acc=0.3334 val_loss=6.117395 val_acc=0.2742 time=31.5s gpu_peak=2115.5MiB
+epoch=032 lr=1.00e-03 train_loss=1.885242 train_acc=0.3361 val_loss=2.283850 val_acc=0.2890 time=35.6s gpu_peak=2115.5MiB
+epoch=033 lr=1.00e-03 train_loss=1.873794 train_acc=0.3359 val_loss=15.879525 val_acc=0.2772 time=37.4s gpu_peak=2115.5MiB
+epoch=034 lr=1.00e-03 train_loss=1.864324 train_acc=0.3392 val_loss=3.490155 val_acc=0.2611 time=31.5s gpu_peak=2115.5MiB
+验证损失连续 10 轮未改善，提前停止。
+最佳模型已保存：D:\pythonProject1\You_PolarCode\outputs\densenet\densenet_best.pt
+Exit code: 0
+End: 2026-08-18 14:22:47

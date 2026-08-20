@@ -1,0 +1,42 @@
+model=tdmrnet device=cuda test_samples=4212 checkpoint=D:\pythonProject1\You_PolarCode\outputs\tdmrnet_best.pt
+已测试 3200/4212 条样本
+已测试 4212/4212 条样本
+
+===== TDMRNet 测试结果 =====
+checkpoint_epoch: 20
+parameters: 43,652
+samples: 4212
+loss: 1.347603
+accuracy: 0.513533
+macro_precision: 0.532175
+macro_recall: 0.513533
+macro_f1: 0.507521
+low_snr_accuracy_-4_to_2_db: 0.105710
+high_snr_accuracy_4_to_20_db: 0.694787
+inference_ms_per_sample: 0.329271
+throughput_samples_per_second: 3037.008019
+
+每类指标（accuracy 等同于该类 recall）：
+P01: acc=0.2265 precision=0.1413 f1=0.1741
+P02: acc=0.1923 precision=0.2083 f1=0.2000
+P03: acc=0.0000 precision=0.0000 f1=0.0000
+P04: acc=0.7393 precision=0.3712 f1=0.4943
+P05: acc=0.5598 precision=0.3484 f1=0.4295
+P06: acc=0.5214 precision=0.2392 f1=0.3280
+P07: acc=0.7863 precision=0.9946 f1=0.8783
+P08: acc=0.7094 precision=0.5907 f1=0.6447
+P09: acc=0.3632 precision=0.5556 f1=0.4393
+P10: acc=0.7735 precision=0.6856 f1=0.7269
+P11: acc=0.6752 precision=0.9349 f1=0.7841
+P12: acc=0.6368 precision=0.8466 f1=0.7268
+P13: acc=0.6325 precision=0.7551 f1=0.6884
+P14: acc=0.6068 precision=0.8161 f1=0.6961
+P15: acc=0.6325 precision=0.7014 f1=0.6652
+P16: acc=0.5897 precision=0.7077 f1=0.6434
+P17: acc=0.5897 precision=0.6133 f1=0.6013
+P18: acc=0.0085 precision=0.0690 f1=0.0152
+
+每个 SNR 的准确率：
+-4dB=0.0802  -2dB=0.1142  +0dB=0.0741  +2dB=0.1543  +4dB=0.3488  +6dB=0.6049  +8dB=0.7469  +10dB=0.7623  +12dB=0.7593  +14dB=0.7685  +16dB=0.7623  +18dB=0.7500  +20dB=0.7500
+
+完整结果已保存：D:\pythonProject1\You_PolarCode\outputs\test_results

@@ -1,0 +1,38 @@
+{
+  "A_polar_mod": {
+    "model": "polar_mod",
+    "params": 48964,
+    "samples": 4212,
+    "accuracy": 0.5280151946818613,
+    "macro_precision": 0.5176995191085985,
+    "macro_recall": 0.5280151946818612,
+    "macro_f1": 0.5071222138218006,
+    "low_snr_accuracy_-4_to_2_db": 0.12037037037037038,
+    "high_snr_accuracy_4_to_20_db": 0.7091906721536351,
+    "inference_ms_per_sample": 0.43673314340013236
+  },
+  "B_focal_g3": {
+    "model": "polar_mod",
+    "params": 48964,
+    "samples": 4212,
+    "accuracy": 0.5885565052231719,
+    "macro_precision": 0.5774683326273181,
+    "macro_recall": 0.5885565052231718,
+    "macro_f1": 0.5775214513831959,
+    "low_snr_accuracy_-4_to_2_db": 0.1566358024691358,
+    "high_snr_accuracy_4_to_20_db": 0.7805212620027435,
+    "inference_ms_per_sample": 0.44873751187057126
+  },
+  "C_weighted_sqrt": {
+    "model": "polar_mod",
+    "params": 48964,
+    "samples": 4212,
+    "accuracy": 0.5671889838556505,
+    "macro_precision": 0.7116041728657101,
+    "macro_recall": 0.5671889838556505,
+    "macro_f1": 0.6095579074030532,
+    "low_snr_accuracy_-4_to_2_db": 0.1412037037037037,
+    "high_snr_accuracy_4_to_20_db": 0.7565157750342936,
+    "inference_ms_per_sample": 0.4142786324784041
+  }
+}
